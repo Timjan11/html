@@ -1,0 +1,125 @@
+@media (max-width: 1200px){
+    .adaptive{
+        width: 1000px;
+    }
+}
+
+@media (max-width: 1000px){
+    .adaptive{
+        width: 768px;    
+    }
+    .news-item{
+        width: 40%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .news-item{
+        width: 45%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .text-container2{
+        width: 50%;
+    }
+    .menu-section2 img{
+        width: 45%;
+    }
+    .text-container{
+        font-size: 18px;
+    }
+    .text-container2{
+        font-size: 18px;
+    }
+}
+@media (max-width: 768px){
+    .box{
+        display: none;
+    }
+    .main_name{
+        font-size: 16px;
+    }
+    .imgLogo{
+        display: none;
+    }
+    .tel{
+        display: none;
+    }
+    .img_back{
+        height: 480px;
+        justify-content: center;
+    }
+    .block1{
+        font-size: 14px;
+
+    }
+    .title{
+        font-size: 12px;
+    }
+    .news-item{
+        width: 40%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .text-container{
+        font-size: 16px;
+    }
+    .menu-section img{
+        width: 43%;
+    }
+    .text-container2{
+        font-size: 16px;
+        width: 50%;
+    }
+    .menu-section2 img{
+        width: 45%;
+    }
+    .block_menu li{
+        padding-left: 60px;
+    }
+}
+@media (max-width: 602px){
+    .menu-section img{
+        display: none;
+    }
+    .menu-section2 img{
+        display: none;
+    }
+    .text-container2{
+        width: 100%;
+        /* padding: 10px; */
+        margin: auto;
+    }
+    .text-container{
+        padding: 0;
+    }
+    .text-container2 h3{
+        text-align:start;
+    }
+    .block_menu li{
+        display: none;
+    }
+
+    .tel{
+        display: none;
+    }
+    .block_menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .firstName{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px){
+    .news-item{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .footer-map{
+        display: none;
+    }
+    
+}
